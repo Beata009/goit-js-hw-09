@@ -12,7 +12,11 @@ body {
   line-height: 1.5;
   text-align: center;
 }
-
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 10px;
+}
 img {
   display: block;
   max-width: 100%;

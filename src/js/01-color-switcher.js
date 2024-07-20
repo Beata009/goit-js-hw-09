@@ -19,7 +19,8 @@ document.querySelector('[data-start]').addEventListener('click', function () {
     interval=setInterval(changeBackgroundColor, 1000);
 });
 
-document.querySelector('[data-stop]').addEventListener('click', function(){
+document.querySelector('[data-stop]').addEventListener('click', function () {
+    console.log('klikniety stop')
     this.disabled = true;
     document.querySelector('[data-start]').disabled = false;
     clearInterval(interval);
